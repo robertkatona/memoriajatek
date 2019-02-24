@@ -18,7 +18,7 @@ body {
 
 body {
     background: #ffffff;
-    font-family: 'Permanet Marker', cursive;
+    font-family: 'Andale Mono', cursive;
     font-size: 16px;
 }
 
@@ -28,9 +28,6 @@ body {
     align-items: center;
     flex-direction: column;
 }
-h1 {
-    font-family: 'Gloria Hallelujah', cursive;
-}
 
 /*Styles for the deck of cards*/
 
@@ -38,20 +35,21 @@ h1 {
     width: 85%;
     background: #ffffff;
     padding: 1rem;
+	border: 1px solid grey;
 	border-radius: 4px;
 	box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	margin: 0 0 3em;
+	margin: 5px;
 }
 
 .deck .card {
 	height: 3.7rem;
 	width: 3.7rem;
 	margin: 0.2rem 0.2rem;
-	background: #141214;;
+	background: grey;;
 	font-size: 0;
 	color: #ffffff;
 	border-radius: 5px;
